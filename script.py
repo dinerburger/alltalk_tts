@@ -3017,7 +3017,7 @@ if gradio_enabled is True:
         retries = 0
         while retries < max_retries:
             try:
-                tts_response = requests.post(api_url, data=tts_data, timeout=60)
+                tts_response = requests.post(api_url, data=tts_data, timeout=300)
                 tts_response.raise_for_status()
                 result = tts_response.json()
 

@@ -1,0 +1,33 @@
+{
+    "first_start_model": "Llasa-3B",
+    "models": [
+      {
+        "model_name": "Llasa-3B",
+        "folder_path": "Llasa-3B",
+        "files_to_download": {
+          "README.md": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/README.md",
+          "config.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/generation_config.json",
+          "model-00001-of-00002.safetensors": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/model-00001-of-00002.safetensors",
+          "model-00002-of-00002.safetensors": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/model-00002-of-00002.safetensors",
+          "model.safetensors.index.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/model.safetensors.index.json",
+          "special_tokens_map.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/special_tokens_map.json",
+          "tokenizer.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/HKUSTAudio/Llasa-3B/resolve/main/tokenizer_config.json"
+        }
+      },
+      {
+        "model_name": "Llasa-1B",
+        "folder_path": "Llasa-1B",
+        "files_to_download": {
+          "README.md": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/README.md",
+          "config.json": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/config.json",
+          "generation_config.json": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/generation_config.json",
+          "model.safetensors": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/model.safetensors",
+          "special_tokens_map.json": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/special_tokens_map.json",
+          "tokenizer.json": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/tokenizer.json",
+          "tokenizer_config.json": "https://huggingface.co/HKUSTAudio/Llasa-1B/resolve/main/tokenizer_config.json"
+        }
+      }
+    ]
+  }

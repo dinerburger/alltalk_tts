@@ -1,10 +1,8 @@
 {
-    "engine_loaded": "piper",
-    "selected_model": "piper",
     "engines_available": [
         {
             "name": "parler",
-            "selected_model": "parler - parler_tts_mini_v0.1"
+            "selected_model": "parler - parler-tts-mini-v1"
         },
         {
             "name": "piper",
@@ -20,7 +18,13 @@
         },
         {
             "name": "f5tts",
-            "selected_model": "f5tts - f5tts_v1"
+            "selected_model": "f5tts - e2tts_v1"
+        },
+        {
+            "name": "llasa",
+            "selected_model": "llasa - Llasa-3B"
         }
-    ]
+    ],
+    "engine_loaded": "llasa",
+    "selected_model": "llasa - Llasa-3B"
 }

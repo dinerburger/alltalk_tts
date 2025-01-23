@@ -1,10 +1,10 @@
 {
     "branding": "AllTalk ",
-    "delete_output_wavs": "Disabled",
+    "delete_output_wavs": "1 Day",
     "gradio_interface": true,
     "output_folder": "outputs",
     "gradio_port_number": 7852,
-    "firstrun_model": true,
+    "firstrun_model": false,
     "firstrun_splash": true,
     "launch_gradio": true,
     "transcode_audio_format": "Disabled",
@@ -13,7 +13,7 @@
         "class": "gradio/base"
     },
     "rvc_settings": {
-        "rvc_enabled": false,
+        "rvc_enabled": true,
         "rvc_char_model_file": "Disabled",
         "rvc_narr_model_file": "Disabled",
         "split_audio": true,
@@ -24,8 +24,8 @@
         "rms_mix_rate": 1,
         "protect": 0.5,
         "hop_length": 130,
-        "f0method": "fcpe",
-        "embedder_model": "hubert",
+        "f0method": "rmvpe",
+        "embedder_model": "contentvec",
         "training_data_size": 45000
     },
     "tgwui": {

@@ -969,8 +969,7 @@ async def generate_audio(text, voice, language, temperature, repetition_penalty,
                 raise
         return stream_response()
     try:
-        async for _ in response:
-            pass
+        await response
     except Exception as e:
         print_message(f"Error during audio generation: {str(e)}", "error", "GEN")
         raise
